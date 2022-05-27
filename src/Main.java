@@ -42,7 +42,6 @@ public class Main {
                 case "3":
                     System.out.println("Obteniendo libro aleatorio");
                     String titulo = usuario.obtenerLibroAleatorio(biblio);
-
                     System.out.println("Ha obtenido el título: " + titulo);
                     break;
                 case "4":
@@ -57,6 +56,7 @@ public class Main {
                     break;
                 case "Q":
                     salir = true;
+                    break;
             }
         }
     }
