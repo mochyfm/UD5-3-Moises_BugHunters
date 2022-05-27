@@ -57,6 +57,9 @@ public class Main {
                 case "Q":
                     salir = true;
                     break;
+                default:
+                    System.out.println("ERROR: Opcion no válida");
+                    break;
             }
         }
     }
